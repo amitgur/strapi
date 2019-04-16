@@ -8,7 +8,7 @@ import React from 'react';
 import { Editor } from 'draft-js';
 import PropTypes from 'prop-types';
 
-class WysiwygEditor extends React.Component {
+class WysiwygEditor extends React.Component {ז
   render() {
     return (
       <Editor {...this.props} ref={this.props.setRef} />

@@ -232,7 +232,7 @@ class PreviewWysiwyg extends React.PureComponent {
     const { placeholder } = this.context;
     // this.previewHTML2(this.props.data);
     return (
-      <div className={this.getClassName()}>
+      <div className={cn(styles.bandpad, this.getClassName())}>
         <WysiwygEditor
           blockStyleFn={getBlockStyle}
           editorState={this.state.editorState}

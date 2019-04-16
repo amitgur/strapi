@@ -707,7 +707,7 @@ class Wysiwyg extends React.Component {
             <PreviewWysiwyg data={this.props.value} />
           ) : (
             <div
-              className={cn(styles.editor, isFullscreen && styles.editorFullScreen)}
+              className={cn(styles.bandpad,styles.editor, isFullscreen && styles.editorFullScreen)}
               onClick={this.focus}
             >
               <WysiwygEditor
